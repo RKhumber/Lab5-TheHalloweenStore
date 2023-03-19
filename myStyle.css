@@ -1,0 +1,21 @@
+img {
+    float: left;
+    margin-right: 1em;
+}
+
+.head1 {
+    font-style: italic;
+    color: orange;
+    text-shadow: black;
+    font-weight: bold;
+    float: inherit;
+    text-shadow: 1px 1px 0 black;
+}
+
+.head2 {
+    font-weight: bold;
+}
+
+.highlight-first-letter::first-letter {
+    font-size: 20px;
+}
